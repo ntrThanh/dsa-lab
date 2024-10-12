@@ -15,7 +15,7 @@ public class QuickSortPartition {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4};
+        int[] array = {10, 3, 5, 2, 4, 6, 8, 9, 1, 7};
         System.out.println(getAverage(array));
         System.out.println(partition(array));
     }

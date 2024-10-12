@@ -1,5 +1,7 @@
 package hus.dsa.homework3.exprstring;
 
+import hus.dsa.homework4.lab2.LinkedListStack;
+
 import java.util.*;
 
 public class FormulaEval {
@@ -54,8 +56,8 @@ public class FormulaEval {
     public static double eval(String formula) {
         String[] arrayOfCharacter = decayString(formula);
 
-        Stack<String> operator = new Stack<>();
-        Stack<String> operand = new Stack<>();
+        LinkedListStack<String> operator = new LinkedListStack<>();
+        LinkedListStack<String> operand = new LinkedListStack<>();
 
         for (int i = 0; i < arrayOfCharacter.length; i++) {
             if (isDouble(arrayOfCharacter[i])) {
