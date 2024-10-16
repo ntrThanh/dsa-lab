@@ -93,7 +93,7 @@ public class MyCircularQueue {
         return number == size;
     }
 
-    public static void display(MyCircularQueue myCircularQueue) {
+    public static void display(MyCircularQueue myCircularQueue) {   
         for (int i = 0; i < myCircularQueue.getNumber(); i++) {
 
         }
