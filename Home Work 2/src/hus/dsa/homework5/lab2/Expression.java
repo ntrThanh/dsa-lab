@@ -71,7 +71,7 @@ public class Expression {
     }
 
     public static void main(String[] args) {
-        String[] s = {"-", "3", "+", "4", "^", "5", "^", "a", "/", "2", "-", "7"};
+        String[] s = {"3", "+", "4", "^", "5", "^", "a", "/", "2", "-", "7"};
         printArray(s);
         System.out.println();
         printArray(new Expression().changeInfixToSuffix(s));
