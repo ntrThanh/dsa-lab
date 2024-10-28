@@ -1,0 +1,93 @@
+1000--------------------------------------------------
+insert
+sortedArrayPriorityQueue: 12
+sortedLinkedPriorityQueue: 8
+unsortedArrayPriorityQueue: 0
+unsortedLinkedPriorityQueue: 2
+
+remove
+
+sortedArrayPriorityQueue: 0
+sortedLinkedPriorityQueue: 0
+unsortedArrayPriorityQueue: 14
+unsortedLinkedPriorityQueue: 9
+
+10000-------------------------------------------------
+insert
+sortedArrayPriorityQueue: 172
+sortedLinkedPriorityQueue: 135
+unsortedArrayPriorityQueue: 2
+unsortedLinkedPriorityQueue: 110
+
+remove
+
+sortedArrayPriorityQueue: 0
+sortedLinkedPriorityQueue: 0
+unsortedArrayPriorityQueue: 122
+unsortedLinkedPriorityQueue: 126
+
+100000------------------------------------------------
+insert
+sortedArrayPriorityQueue: 14329
+sortedLinkedPriorityQueue: 9132
+unsortedArrayPriorityQueue: 26
+unsortedLinkedPriorityQueue: 7469
+
+remove
+
+sortedArrayPriorityQueue: 4
+sortedLinkedPriorityQueue: 3
+unsortedArrayPriorityQueue: 6929
+unsortedLinkedPriorityQueue: 8732
+
+
+1000000-----------------------------------------------
+insert
+sortedArrayPriorityQueue: long time
+sortedLinkedPriorityQueue: long time
+unsortedArrayPriorityQueue: 70
+unsortedLinkedPriorityQueue: long time
+
+remove
+
+sortedArrayPriorityQueue: 4
+sortedLinkedPriorityQueue: 4
+unsortedArrayPriorityQueue: long time
+unsortedLinkedPriorityQueue: long time
+
+
+10000000----------------------------------------------
+insert
+sortedArrayPriorityQueue: long time
+sortedLinkedPriorityQueue: long time
+unsortedArrayPriorityQueue: 683
+unsortedLinkedPriorityQueue: long time
+
+remove
+
+sortedArrayPriorityQueue: 5
+sortedLinkedPriorityQueue: 4
+unsortedArrayPriorityQueue: long time
+unsortedLinkedPriorityQueue: long time
+
+100000000---------------------------------------------
+insert
+
+Java heap space
+
+remove
+
+Java heap space
+
+
+
+
+
+
+
+
+
+
+
+
+
