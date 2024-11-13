@@ -39,7 +39,7 @@ public class GFG {
     public static Node newNode(int key) { return new Node(key); }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));   
         int t = Integer.parseInt(br.readLine().trim());
 
         while (t-- > 0) {
@@ -52,7 +52,7 @@ public class GFG {
                 head = new Node(arr[0]);
                 temp = head;
                 for (int i = 1; i < arr.length; i++) {
-                    temp.next = new Node(arr[i]);
+                    temp.next = new Node(arr[i]);  
                     temp = temp.next;
                 }
                 temp.next = head;
@@ -65,6 +65,9 @@ public class GFG {
             printList(head1);
             printList(head2);
         }
+
+
+
     }
 }
 

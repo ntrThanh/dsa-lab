@@ -33,8 +33,8 @@ public class Expression {
                     }
                 }
             } else if (checkOperator(token[i]) == 6 || token[i].equals("(")) {
-                if (!token[i].equals(")")) {
-                    operator.push(token[i]);
+                    if (!token[i].equals(")")) {
+                        operator.push(token[i]);
                 }
             } else if (token[i].equals(")")) {
                 while (!operator.isEmpty() && !operator.peek().equals("(")) {
@@ -71,7 +71,7 @@ public class Expression {
     }
 
     public static void main(String[] args) {
-        String[] s = {"3", "+", "4", "^", "5", "^", "a", "/", "2", "-", "7"};
+        String[] s = {"(","6", "/", "3","+","2",")", "*", "(", "7", "-", "4",")"};
         printArray(s);
         System.out.println();
         printArray(new Expression().changeInfixToSuffix(s));
