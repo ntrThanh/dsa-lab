@@ -99,7 +99,7 @@ public class Solution {
                 if (file.isFile()) {
                     ls(list, files[i]);
                 } else {
-                    ls(list, files[i]);
+                    ls(list, files[i]); 
                 }
             }
         } 

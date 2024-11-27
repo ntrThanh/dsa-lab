@@ -1,0 +1,12 @@
+5
+0 | Circle K 0 | true | Thanh Xuan Ha Noi | 1000
+1 | Circle K 1 | false | Ha Dong Ha Noi | 100
+2 | Circle K 2 | false | Thanh Oai Ha Noi | 150
+3 | Circle K 3 | false | Dong Da Ha Noi | 200
+4 | Circle K 4 | false | Hoan Kiem Ha Noi | 400
+
+0 1 0 0 7
+1 0 4 1 1
+0 4 0 0 2
+0 1 0 0 1
+7 1 2 1 0
