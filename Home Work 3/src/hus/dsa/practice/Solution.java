@@ -303,44 +303,7 @@ public class Solution {
         return true;
     }
 
-    public int numIslands(char[][] grid) {
-        // Code here
-        int result = 1;
 
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
-                if (isIsland(grid, i, j)) {
-                    result++;
-                }
-            }
-        }
-
-        return result;
-    }
-
-    public boolean isIsland(char[][] grid, int x, int y) {
-        if (grid[x][y] == '0') {
-            return false;
-        }
-
-        for (int i = x - 1; i <= x + 1; i++) {
-            for (int j = y - 1; j <= y + 1; j++) {
-                if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length) {
-                    continue;
-                }
-
-                if (grid[i][j] == '1') {
-                    if (x == i && y == j) {
-                        continue;
-                    } else {
-                        return false;
-                    }
-                }
-            }
-        }
-
-        return true;
-    }
 }
 
 class Node {

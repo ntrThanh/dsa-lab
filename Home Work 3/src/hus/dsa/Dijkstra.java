@@ -60,7 +60,7 @@ public class Dijkstra {
     }
 
     public static void printMinPath(int[] path, int vertex) {
-        if (path[vertex] == -1) {
+            if (path[vertex] == -1) {
             System.out.print(vertex);
             return;
         }
